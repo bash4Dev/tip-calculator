@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+  <div id="logo-div">
+    <img src="./images/logo.svg" alt="Logo Image" id="logo-image">
+  </div>
+  <div id="container">
+    <main>
+      <div id="bill">Bill</div>
+      <div id="bill-input">
+        <img src="./images/icon-dollar.svg" alt="Dollar Icon">
+        <span>142.55</span>
+      </div>
+
+      <div id="select-tip">
+        <div>Select Tip %</div>
+        <div class="tip">5%</div>
+        <div class="tip">10%</div>
+        <div class="tip">15%</div>
+        <div class="tip">25%</div>
+        <div class="tip">50%</div>
+        <div class="tip custom">Custom</div>
+      </div>
+
+      <div id="number-of-ppl">
+        <div>Number of People</div>
+        <div id="error-mgs"></div>
+        <div>
+          <img src="./images/icon-person.svg" alt="Person Logo">
+          <span>5</span>
+        </div>
+      </div> 
+    </main>
+
+    <aside>
+      <div class="tip amount">
+        <div>
+          <div>Tip Amount</div>
+          <div class="per-person">/ person</div>
+        </div>
+        <div class="qty" id="tip-qty">$4.27</div>
+      </div>
+
+      <div class="total amount">
+        <div>
+          <div>Total</div>
+          <div class="per-person">/ person</div>
+        </div>
+        <div class="qty" id="total-qty">$4.27</div>
+      </div>
+  
+      <button type="button" id="reset-btn">Reset</button>
+    </aside>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
