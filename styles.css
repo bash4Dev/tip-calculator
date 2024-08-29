@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 0.6rem 1.5rem;
+    padding: 0.6rem 1.6rem;
 }
 
 #container aside {
@@ -60,6 +60,7 @@ div.input {
     justify-content: space-between;
     align-items: center;
     padding: 8px;
+    margin-top: 3px;
     background-color: var(--VLG-cyan);
 }
 
@@ -115,6 +116,16 @@ aside #reset-btn {
     border-radius: 3px;
     background-color: var(--grayish-cyan);
     opacity: 28%;
+}
+
+p, .error, .amt {
+    font-size: 15px;
+}
+
+.err {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .attribution {

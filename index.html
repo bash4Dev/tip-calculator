@@ -19,7 +19,7 @@
         <p>Bill</p>
         <div class="input">
           <img src="./images/icon-dollar.svg" alt="Dollar Icon">
-          <span>0</span>
+          <span id="input1">0</span>
         </div>
       </div>
 
@@ -36,11 +36,13 @@
       </div>
 
       <div id="number-of-ppl">
-        <p>Number of People</p>
-        <div id="error-mgs"></div>
+        <div class="err">
+          <p>Number of People</p>
+          <div class="error" id="error-mgs">Can't be zero</div>
+        </div>
         <div class="input">
           <img src="./images/icon-person.svg" alt="Person Logo">
-          <span>0</span>
+          <span id="input2">0</span>
         </div>
       </div> 
     </main>
@@ -49,7 +51,7 @@
       <div id="amounts">
         <div class="tip amount">
           <div>
-            <div>Tip Amount</div>
+            <div class="amt">Tip Amount</div>
             <div class="per-person">/ person</div>
           </div>
           <span class="qty" id="tip-qty">$0</span>
@@ -57,7 +59,7 @@
 
         <div class="total amount">
           <div>
-            <div>Total</div>
+            <div class="amt">Total</div>
             <div class="per-person">/ person</div>
           </div>
           <span class="qty" id="total-qty">$0</span>
