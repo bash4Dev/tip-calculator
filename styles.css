@@ -54,14 +54,30 @@ body {
     font-size: 17px;
 }
 
-div.input {
+div.input-div {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
     margin-top: 3px;
-    background-color: var(--VLG-cyan);
+    position: relative;
+}
+
+.icon-img {
+    position: absolute;
+    top: 1;
+    left: 5px;
+}
+
+div.input-div input {
+    width: 100%;
+    padding: 7px;
+    color: var(--grayish-cyan);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: end;
+    border: none;
+    background-color: rgb(236, 205, 210);
 }
 
 #select-tip .tips {
@@ -69,9 +85,10 @@ div.input {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
     margin-top: 5px;
+    cursor: pointer;
 }
 
-.tips .tip {
+.tips .tip-btn {
     text-align: center;
     padding: 6px;
     font-weight: 600;
